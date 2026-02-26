@@ -43,7 +43,7 @@ body { /* Requirement-2.4 */
 
 .nav-link {
     text-decoration: none;
-    color: black;
+    color: blue;
 }
 
 .nav-link:hover { /* Requirement-2.E */
@@ -126,4 +126,5 @@ summary { /* Requirement-2.H */
     font-weight: bold;
     cursor: pointer;
     color: black;
+
 }
