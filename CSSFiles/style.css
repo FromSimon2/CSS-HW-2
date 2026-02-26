@@ -1,0 +1,129 @@
+header { /* Requirement-2.A */
+    font-family: verdana; /* Requirement-2.1 */
+    font-size: 30px; /* Requirement-2.9 */
+    color: white; /* Requirement-2.3 */
+    text-align: center; /* Requirement-2.2 */
+    margin-top: 20px;
+}
+
+h1, h2, h3 { /* Requirement-2.B*/
+
+    font-family: verdana;
+    color: white;
+    margin-top: 20px;
+    font-size: 1.25rem;
+}
+
+body { /* Requirement-2.4 */
+    background-image: url("../images/Soulsborne.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.content{ /* Requirement-2.C */
+
+    background-color: rgba(0, 0, 0, 0.85);
+    width: 80%; /* Requirement-2.10 */
+    max-width: 1200px; /* Requirement-2.7 */
+    margin: 20px auto;
+    padding: 30px; /* Requirement-2.6 */
+
+}
+
+#paragraph { /* Requirement-2.D */
+    display: inline-block;
+    background-color: white;
+    border-color: gray; /* Requirement-2.5 */
+    border-width: 20px;
+    padding: 30px;
+    text-indent: 50px;
+    line-height: 1.5;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: black;
+}
+
+.nav-link:hover { /* Requirement-2.E */
+    background-color: blue;
+    color: white;
+    border: 2px solid black;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.nav-link:active {
+    background-color: black;
+    color: white;
+    border: 2px solid black;
+}
+
+.nav-link:visited {
+    color: gray;
+    background-color: white;
+    border: 2px solid black;
+    padding: 5px 10px;
+}
+
+ul {
+    list-style-type: square; /* Requirement-2.8 */
+    padding: 10px 20px;
+    margin: 30px 20px;
+    list-style-position: inside;
+    background-color: white;
+    border: 5px solid black;
+
+}
+
+li {
+    background-color: white;
+    margin-bottom: 10px;
+
+}
+
+table {
+    border-collapse: collapse;
+    border: 3px solid white;
+}
+
+th {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border: 3px solid white;
+}
+
+td {
+    background-color: white;
+    color: black;
+    padding: 10px;
+    border: 3px solid blue;
+}
+
+.inline{ 
+    display: inline-block; /*Requirement-2.12 */
+    width: 150px;
+    height: auto;
+    margin: 5px;
+    text-align: center;
+    background-color: white;
+}
+
+.clear{
+    clear: both; /* Requirement-2.13 */
+}
+
+details { /* Requirement-2.G */
+    background-color: white;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 20px 0;
+}
+
+summary { /* Requirement-2.H */
+    font-weight: bold;
+    cursor: pointer;
+    color: black;
+}
